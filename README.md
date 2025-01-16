@@ -1,9 +1,12 @@
-
 ![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
 
 # Titulo do projeto
 
 Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+
+## Layout do Projeto
+
+[Layout no Figma](https://www.figma.com/design/QtW96TPE97jTKiTbl2ZNcD/JavaScript%3A-construindo-p%C3%A1ginas-din%C3%A2micas-%7C-Checklist?node-id=1035-1070&t=qiMqSW9jXZfYaFsR-0)
 
 ## 🔨 Funcionalidades do projeto
 
@@ -31,6 +34,4 @@ Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 - Por fim clique em OK
 
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
-
-
+Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆
