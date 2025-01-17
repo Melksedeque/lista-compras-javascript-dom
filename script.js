@@ -1,5 +1,6 @@
 const inputItem = document.getElementById("input-item");
 const botaoAdicionar = document.getElementById("adicionar-item");
+const mensagemListaVazia = document.querySelector(".mensagem-lista-vazia");
 const listaCompras = document.getElementById("lista-de-compras");
 const diaDaSemana = new Date().toLocaleDateString("pt-BR", { weekday: "long" });
 const data = new Date().toLocaleDateString("pt-BR");
@@ -47,5 +48,17 @@ botaoAdicionar.addEventListener("click", (e) => {
 
   listaCompras.appendChild(itemDaLista);
 
-  console.log(containerItemDaLista);
+  verificarListaVazia();
 });
+
+function verificarListaVazia() {
+  // listaCompras.querySelectorAll("li")
+  console.log(listaCompras);
+  if (listaCompras.firstChild === null) {
+    mensagemListaVazia.style.display = "block";
+  } else {
+    mensagemListaVazia.style.display = "none";
+  }
+}
+
+verificarListaVazia();
