@@ -1,37 +1,74 @@
 ![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
 
-# Titulo do projeto
+# Projeto Lista de Compras
 
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+## Menu
+
+- [Layout do Projeto](#layout-do-projeto)
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Instalar e Rodar o Projeto](#como-instalar-e-rodar-o-projeto)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Licença](#licença)
+- [Autor](#autor)
 
 ## Layout do Projeto
 
 [Layout no Figma](https://www.figma.com/design/QtW96TPE97jTKiTbl2ZNcD/JavaScript%3A-construindo-p%C3%A1ginas-din%C3%A2micas-%7C-Checklist?node-id=1035-1070&t=qiMqSW9jXZfYaFsR-0)
 
-## 🔨 Funcionalidades do projeto
+## Descrição
 
-A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado.
+O projeto "Lista de Compras" é uma aplicação web que permite aos usuários criar e gerenciar uma lista de itens a serem comprados. Com uma interface intuitiva e recursos dinâmicos, os usuários podem adicionar, marcar como comprados e excluir itens da lista.
 
-![Inserção no campo de digitação do valor ração de gato, após, é clicado no botão de edição, onde é aberto um popup para digitar o novo do nome item, que foi digitado ração de cachorro. Em seguida, é clicado no botão de exclusão, e o item é excluído.](https://imgur.com/isPj7Xf.gif)
+## Funcionalidades
 
-## ✔️ Técnicas e tecnologias utilizadas
+- **Adição de Itens:** Os usuários podem adicionar novos itens à lista de compras digitando o nome do item no campo de entrada e clicando no botão "Salvar item".
+- **Marcação de Itens como Comprados:** Ao clicar no checkbox ao lado de cada item, o usuário pode marcar o item como comprado, fazendo com que o nome do item seja riscado.
+- **Verificação de Lista Vazia:** Quando a lista de compras estiver vazia, uma mensagem informativa é exibida.
+- **Exibição da Data e Hora:** Cada item adicionado à lista exibe a data e hora em que foi criado.
 
-As técnicas e tecnologias utilizadas pra isso são:
+## Tecnologias Utilizadas
 
-- `HTML`: criação dos elementos da tela;
-- `CSS`: estilização da aplicação;
-- `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
+- **HTML:** Estruturação da página web.
+- **CSS:** Estilização da aplicação.
+- **JavaScript:** Construção de elementos dinâmicos através da manipulação do DOM.
 
-## 📁 Acesso ao projeto
+## Como Instalar e Rodar o Projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
+1. Certifique-se de ter o Visual Studio Code instalado em seu sistema.
+2. Faça o download ou clone este repositório em sua máquina local.
+3. Abra o projeto no Visual Studio Code.
+4. Instale a extensão "Live Server" no Visual Studio Code.
+5. Clique com o botão direito no arquivo `index.html` e selecione a opção "Open with Live Server".
+6. A aplicação será aberta em seu navegador padrão.
 
-## 🛠️ Abrir e rodar o projeto
+## Estrutura de Pastas
 
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
+```
+projeto-lista-de-compras/
+├── img/
+│   ├── bag.png
+│   ├── delete.svg
+│   └── edit.svg
+├── js/
+│   ├── criarItemDaLista.js
+│   ├── gerarDataCompleta.js
+│   └── verificarListaVazia.js
+├── index.html
+├── LICENSE
+├── README.md
+├── script.js
+└── styles.css
+```
 
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
+## Licença
 
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/lista-compras-javascript-dom?tab=MIT-1-ov-file) para mais detalhes.
+
+## Autor
+
+- GitHub - [Melksedeque Silva](https://github.com/Melksedeque/)
+- FrontEndMentor - [@Melksedeque](https://www.frontendmentor.io/profile/Melksedeque)
+- Twitter / X - [@SouzaMelk](https://x.com/SouzaMelk)
+- LinkedIn - [Melksedeque Silva](https://www.linkedin.com/in/melksedeque-silva/)
