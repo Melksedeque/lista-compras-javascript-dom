@@ -1,5 +1,5 @@
 import { criarItemDaLista } from "./js/criarItemDaLista.js";
-import { verificarListaVazia } from "./js/verificarListaVazia.js";
+import verificarListaVazia from "./js/verificarListaVazia.js";
 
 const botaoAdicionar = document.getElementById("adicionar-item");
 const listaCompras = document.getElementById("lista-de-compras");
