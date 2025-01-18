@@ -12,4 +12,4 @@ function gerarDataCompleta() {
   return dataCompleta;
 }
 
-export default gerarDataCompleta();
+export default gerarDataCompleta;
